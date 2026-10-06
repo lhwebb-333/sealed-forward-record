@@ -1,0 +1,26 @@
+# Hashes only. Everything is ignored unless it is listed below, so no
+# sealed list, no protocol text and no ledger file can be added by
+# accident, not even with "git add -A".
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/RULES.md
+!/LICENSE
+!/MANIFEST.csv
+!/tools/
+/tools/*
+!/tools/record.py
+!/.github/
+/.github/**
+!/.github/**/
+!/.github/workflows/verify.yml
+!/proofs/
+/proofs/**
+!/proofs/**/
+!/proofs/**/*.ots
+
+# Never, wherever they appear.
+SEAL_PROTOCOL*
+*.sealed
+*.bak

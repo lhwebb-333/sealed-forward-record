@@ -1,0 +1,3 @@
+seq,utc_time,status,lane,seal_id,item,list_size,supersedes,reason_class,gate,receipt,sha256,ots_proof,prev_manifest_sha256
+1,2026-10-05T19:01:28Z,sealed,protocol,protocol-v1,protocol,-,-,-,rule:7,1337,36e02cf6409e12c2c767eb316caad51bbd73b6ad8e48880318eeef1b60f7dc96,proofs/0001-protocol-v1-protocol.ots,6853504fdc6367868572b3b1e8284d0f726cc0553a6c57251044fa996d95d1a1
+2,2026-10-05T22:19:18Z,sealed,protocol,protocol-v2,protocol,-,protocol-v1,rule-added,rule:8,1356,46a107d429c5418662f242af0417554eb9f837c9fd57169c863c5862052cda14,proofs/0002-protocol-v2-protocol.ots,a16e5e94814d09c637864c54db0b76946b1c2c4c2a80513c14daa0c93b082b86
